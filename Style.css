@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: DM sans;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(111, 106, 247, 1);
+    color: rgba(255, 255, 255, 1);
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 12vh;
+    z-index: 1;
+
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 47.43px;
+    /* position: relative; */
+
+}
+
+.dappr {
+    font-family: Delius Unicase;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 78.81px;
+
+}
+
+.center .text {
+    width: 18rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 60px;
+    padding-left: 1rem;
+
+
+}
+
+.srch {
+    right: 5.5rem;
+    position: relative;
+    height: 20px;
+   
+}
+
+.text{
+    font-size: 1.2rem;
+}
+
+.vector1 {
+    height: 2.2rem;
+}
+
+.main {
+    width: 100vw;
+    height: auto;
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+
+
+
+
+.main .part1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    margin-top: 70px;
+    display: inline-block;
+
+
+}
+
+.tech {
+    width: 25vw;
+    height: 450px;
+    border-radius: 1rem;
+    display: inline-block;
+
+    margin-left: 120px;
+
+}
+.techimg {
+    border-radius: 1rem; 
+    width: 25vw;
+    height: 450px;
+
+}
+
+
+.textbox {
+    width: 50vw;
+    border-radius: 1rem;
+    background: rgba(229, 216, 255, 1);
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+    display: inline-block;
+    height: 450px;
+    margin-left: 50px;
+
+}
+
+.media{
+    position: sticky;
+    right: 0px;
+    top: 100px;
+    height: 30vh;
+    display: inline-block;
+    margin-bottom: 140px;
+}
+
+.main .part2 {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.part2 .card {
+    height: 110px;
+    width: 230px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.card1 {
+    background: rgba(146, 157, 255, 1);
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+}
+
+.card2 {
+    background: rgba(115, 76, 242, 1);
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+.card3 {
+    background: rgba(210, 136, 255, 1);
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+.card4 {
+    background: rgba(0, 0, 0, 1);
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+.main .part3 {
+    width: 90vw;
+    height: 450px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 21px;
+    background: rgba(72, 62, 255, 1);
+
+}
+
+.left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.btn {
+    width: 300px;
+    height: 90px;
+    border: 5px solid rgba(255, 255, 255, 1);
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: DM Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 62.54px;
+    letter-spacing: 0.04em;
+    text-align: left;
+
+}
+
+.btn1{
+    background: rgba(188, 224, 246, 1);
+    border: none;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+
+
+}
+
+.btn2, .btn3{
+    color:rgba(255, 255, 255, 1);
+
+}
+
+.right{
+    border-radius: 9px;
+    height: 80%;
+    width: 60%;
+    margin: auto;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    /* position: relative; */
+    line-height: 3.2rem;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+h1{
+    display: flex;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45.99px;
+    letter-spacing: 0.105em;
+    text-align: left;
+    margin-left: 1.5rem;
+    
+}
+
+.right p{
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    
+}
+
+.btn4{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:8vh;
+    width: 10vw;
+    right: 170px;
+    top: 1180px;
+    background: rgba(0, 0, 0, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    border-radius: 9px;
+
+
+}
+
+
+
+.media2{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 20vh;
+  
+
+}
